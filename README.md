@@ -1,21 +1,15 @@
 # ExDemo
 
-**TODO: Add description**
+tokyo.ex #17 hands-on
 
-## Installation
+https://github.com/ohr486/ElixirHandsOn20220326/wiki
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_demo` to your list of dependencies in `mix.exs`:
+## Run
 
-```elixir
-def deps do
-  [
-    {:ex_demo, "~> 0.1.0"}
-  ]
-end
+```shell
+$ mix run -e 'ExDemo.Http3.start'
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_demo](https://hexdocs.pm/ex_demo).
+http://localhost:8080/sample.html
 
+http://localhost:8080/sample.jpg
